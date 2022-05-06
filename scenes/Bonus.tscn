@@ -1,0 +1,255 @@
+[gd_scene load_steps=8 format=2]
+
+[ext_resource path="res://Imagens/Simbolos/CyberCircus_Rolette.png" type="Texture" id=1]
+[ext_resource path="res://Fonts/CarnivaleeFreakshowDemo-AGn2.ttf" type="DynamicFontData" id=2]
+[ext_resource path="res://Imagens/Simbolos/Light_Ball.png" type="Texture" id=3]
+[ext_resource path="res://Imagens/Simbolos/Light_Ray.png" type="Texture" id=4]
+
+[sub_resource type="Animation" id=1]
+resource_name = "Bonus"
+length = 0.833334
+step = 0.0416667
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.541667, 0.833333 ),
+"transitions": PoolRealArray( 0.148651, 2, 1 ),
+"update": 0,
+"values": [ Vector2( -841, 94 ), Vector2( -120, -24 ), Vector2( -120, -24 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:rotation_degrees")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.5, 0.833333 ),
+"transitions": PoolRealArray( 0.148651, 2, 1 ),
+"update": 0,
+"values": [ -212.626, 460.966, 460.966 ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("../Label:rect_scale")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0, 0.625, 0.626, 0.833333 ),
+"transitions": PoolRealArray( 1, 0.5, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 1, 1 ), Vector2( 1, 1 ), Vector2( 0.0312003, 0.0312003 ), Vector2( 1, 1 ) ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("../Label:visible")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0, 0.625 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ false, true ]
+}
+tracks/4/type = "value"
+tracks/4/path = NodePath("../Lights/Sweeper:position")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/keys = {
+"times": PoolRealArray( 0.875, 1.41667 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( -178.239, 180.183 ), Vector2( 473.992, -51.9765 ) ]
+}
+tracks/5/type = "value"
+tracks/5/path = NodePath("../Lights/Sweeper:rotation_degrees")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/keys = {
+"times": PoolRealArray( 0.875, 1.41667 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ -57.3496, -57.3496 ]
+}
+tracks/6/type = "value"
+tracks/6/path = NodePath("../Label:rect_position")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/keys = {
+"times": PoolRealArray( 0.625001 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( -232.877, -146.482 ) ]
+}
+tracks/7/type = "value"
+tracks/7/path = NodePath("../Label:rect_rotation")
+tracks/7/interp = 1
+tracks/7/loop_wrap = true
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/keys = {
+"times": PoolRealArray( 0.625001 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ -13.9058 ]
+}
+
+[sub_resource type="Animation" id=4]
+resource_name = "Bonus_DancingLetters"
+loop = true
+step = 0.0416667
+tracks/0/type = "value"
+tracks/0/path = NodePath("../Lights/Sweeper:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.291667, 0.75, 1 ),
+"transitions": PoolRealArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( -207, 216 ), Vector2( -207, 216 ), Vector2( 325, -184 ), Vector2( 325, -184 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("../Lights/Sweeper:rotation_degrees")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.291667, 0.75, 1 ),
+"transitions": PoolRealArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ -57.3496, -57.3496, -57.3496, -57.3496 ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("../Label:rect_position")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0, 0.333333, 0.5, 0.833333, 1 ),
+"transitions": PoolRealArray( 0.732043, 1, -2, 1, 1 ),
+"update": 0,
+"values": [ Vector2( -232.877, -146.482 ), Vector2( -224, -223 ), Vector2( -216, -146.482 ), Vector2( -240, -202 ), Vector2( -232.877, -146.482 ) ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("../Label:rect_rotation")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0, 0.333333, 0.5, 0.833333, 1 ),
+"transitions": PoolRealArray( 0.732043, 1, -2, 1, 1 ),
+"update": 0,
+"values": [ -13.9058, 3.05614, 11.5371, -5.42483, -13.9058 ]
+}
+tracks/4/type = "value"
+tracks/4/path = NodePath("../Label:visible")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/5/type = "value"
+tracks/5/path = NodePath(".:position")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( -120, -24 ) ]
+}
+tracks/6/type = "value"
+tracks/6/path = NodePath(".:rotation_degrees")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ 460.966 ]
+}
+
+[sub_resource type="DynamicFont" id=3]
+size = 200
+outline_size = 4
+outline_color = Color( 0.0980392, 0.733333, 0.913725, 0.862745 )
+use_filter = true
+font_data = ExtResource( 2 )
+
+[node name="Bonus" type="Node2D"]
+
+[node name="Roulette" type="Sprite" parent="."]
+light_mask = 2
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 190, 10, 290, 500 )
+
+[node name="Knife" type="Sprite" parent="."]
+light_mask = 2
+position = Vector2( -120, -24 )
+rotation = 8.04537
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 60, 250, 80, 210 )
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+root_node = NodePath("../Knife")
+anims/Bonus = SubResource( 1 )
+anims/Bonus_DancingLetters = SubResource( 4 )
+
+[node name="Label" type="Label" parent="."]
+margin_left = -216.005
+margin_top = -146.494
+margin_right = 264.995
+margin_bottom = 78.5063
+rect_rotation = 11.5334
+rect_pivot_offset = Vector2( 232.421, 139.313 )
+custom_colors/font_color = Color( 0.956863, 0.905882, 0.752941, 1 )
+custom_fonts/font = SubResource( 3 )
+text = "BONUS"
+
+[node name="Radial" type="Light2D" parent="Label"]
+show_behind_parent = true
+light_mask = 2
+position = Vector2( 244.506, 123.98 )
+rotation = -0.0265182
+scale = Vector2( 0.764811, 0.707833 )
+texture = ExtResource( 3 )
+color = Color( 0.0745098, 0.72549, 0.709804, 1 )
+energy = 0.77
+range_z_max = 1202
+range_item_cull_mask = 2
+
+[node name="Lights" type="Node" parent="."]
+
+[node name="Sweeper" type="Light2D" parent="Lights"]
+position = Vector2( 38.8445, 31.1545 )
+rotation = -1.00094
+scale = Vector2( 1.18276, 5.19822 )
+texture = ExtResource( 4 )
